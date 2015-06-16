@@ -65,10 +65,10 @@ import java.util.ArrayList;
  *
  * @author <a href="mailto:riccardo.bruno@ct.infn.it">Riccardo Bruno</a>(COMETA)
  */
-public class mi_parallel_app_portlet extends GenericPortlet {
+public class mi_parallel_portlet extends GenericPortlet {
 
     // Instantiate the logger object
-    AppLogger _log = new AppLogger(mi_parallel_app_portlet.class);
+    AppLogger _log = new AppLogger(mi_parallel_portlet.class);
 
     // This portlet uses Aciont/Views enumerations in order to 
     // manage the different portlet modes and the corresponding 
@@ -1270,4 +1270,4 @@ public class mi_parallel_app_portlet extends GenericPortlet {
                     + LS);
         } // numInfra == 0                    
     } // submitJob
-} // mi_parallel_app_portlet
+} // mi_parallel_portlet

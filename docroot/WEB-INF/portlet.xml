@@ -7,8 +7,8 @@
 	xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd"
 >
 	<portlet>
-		<portlet-name>mi-parallel-app-portlet</portlet-name>
-		<display-name>mi-parallel-app-portlet</display-name>
+		<portlet-name>mi-parallel-portlet</portlet-name>
+		<display-name>mi-parallel-portlet</display-name>
 		<portlet-class>it.infn.ct.mi_parallel_app_portlet</portlet-class>
 		<!--
                      Application init parameters
@@ -237,9 +237,9 @@
 			<portlet-mode>help</portlet-mode>
 		</supports>
 		<portlet-info>
-			<title>mi-parallel-app-portlet</title>
-			<short-title>mi-parallel-app-portlet</short-title>
-			<keywords>mi-parallel-app-portlet</keywords>
+			<title>mi-parallel-app</title>
+			<short-title>mi-parallel-app</short-title>
+			<keywords>mi-parallel-app</keywords>
 		</portlet-info>
 		<security-role-ref>
 			<role-name>administrator</role-name>

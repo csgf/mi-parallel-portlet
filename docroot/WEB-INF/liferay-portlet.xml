@@ -3,7 +3,7 @@
 
 <liferay-portlet-app>
 	<portlet>
-		<portlet-name>mi-parallel-app-portlet</portlet-name>
+		<portlet-name>mi-parallel-portlet</portlet-name>
 		<icon>/icon.png</icon>
 		<instanceable>true</instanceable>
 		<header-portlet-css>/css/main.css</header-portlet-css>

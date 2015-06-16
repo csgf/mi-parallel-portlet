@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Script that customizes the mi-parallel-app' portlet
+# Script that customizes the mi-parallel' portlet
 # just fill properly any environment variable
 # accordingly to your application and then run
 #
@@ -30,7 +30,7 @@ APP_OPERDESC="$APP_NAME description"
 APP_OPERATIONID=10
 
 # Application information
-APP_NAME=mi-parallel-app
+APP_NAME=mi-parallel
 APP_VERSION=1.0
 
 # Grid Engine Operation description 

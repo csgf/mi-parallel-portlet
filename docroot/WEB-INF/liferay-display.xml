@@ -3,6 +3,6 @@
 
 <display>
 	<category name="GILDA">
-		<portlet id="mi-parallel-app-portlet" />
+		<portlet id="mi-parallel-portlet" />
 	</category>
 </display>
