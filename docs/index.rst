@@ -85,7 +85,7 @@ The following figure shown how the portlet has been configured to run simulation
 
 2. To configure the application, the following settings have to be provided:
 
-- **Grid Operation Identification**: The application identifier as registered in the UserTracking MySQL database (GridOperations table), the default value is 10 and in order to see the submitted special jobs status you should insert a new in usertracking database, if it doesn't already exist, using the following command:
+- **Grid operation identifyer**: The application identifier as registered in the UserTracking MySQL database (GridOperations table), the default value is 10 and in order to see the submitted special jobs status you should insert a new in usertracking database, if it doesn't already exist, using the following command:
 
 .. code:: sql
 
