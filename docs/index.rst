@@ -14,8 +14,6 @@ About
    :alt: mi-parallel-portlet logo
    :scale: 80%
    
--------------
-  
 This portlet represents a template that allows you to develop your own portlet to submit and run special jobs.
 
 You can choose the kind of parallel job you would like to run from a list containing the following elements:
