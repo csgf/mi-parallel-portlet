@@ -47,9 +47,9 @@ When the previous command has completed, verify that the portlet is `"Successful
 
 3. Then, open your browser at http://localhost:8080 click Add > More in the GILDA menu, click on Add button to add this new portlet. following picture shows the correctly result:
 
-.. image:: images/ABINIT_logo.png
+.. image:: images/view.png
     :align: center
-    :scale: 90%
+    :scale: 80%
     :alt: mi-parallel-portlet view
 
 As soon as the portlet has been successfully deployed you have to configure:
@@ -78,9 +78,9 @@ Some e-Infrastructure has been already defined as default, in order to simplify 
 
 The following figure shown how the portlet has been configured to run simulation on the EUMEDGRID-Support e-Infrastructure.
     
-.. image:: images/portlet_pref.jpg
+.. image:: images/portlet_pref.png
    :align: center
-   :scale: 90%
+   :scale: 70%
    :alt: mi-parallel-portlet preference
 
 2. To configure the application, the following settings have to be provided:
@@ -109,12 +109,29 @@ The run special jobs you should:
 4. a label to identify yours collections;
 5. finally, click on the Submit button to execute this collection.
 
-.. image:: images/submit.jpg
+.. image:: images/submit.png
    :align: center
-   :scale: 90%
+   :scale: 80%
    :alt: mi-parallel-portlet submission example
-   
-   
+
+You can also select the collection type from the combo box, and press the Demo button that submits a demo that consists of 3 tasks. 
+
+Now move to the MyJob portlet and if all went well, this is the result that you should see:
+
+.. image:: images/myjobs.png
+   :align: center
+   :scale: 80%
+   :alt: MyJobs portlet
+
+
+When all jobs are successfully completed the whole collection becomes **DONE** and you can download the output on you PC, as shown below. 
+
+.. image:: images/output.png
+   :align: center
+   :scale: 80%
+   :alt: Job Collection demo output
+
+
 ============
 References
 ============
@@ -126,17 +143,13 @@ Please feel free to contact us any time if you have any questions or comments.
 
 .. _INFN: http://www.ct.infn.it/
 .. _DFA: http://www.dfa.unict.it/
-.. _ARN: http://www.grid.arn.dz/
 
 :Authors:
- `Giuseppe LA ROCCA <mailto:giuseppe.larocca@ct.infn.it>`_ - Italian National Institute of Nuclear Physics (INFN_),
-
+ 
  `Mario TORRISI <mailto:mario.torrisi@ct.infn.it>`_ - University of Catania (DFA_),
 
- `Brahim LAGOUN <mailto:lag17_brahim@yahoo.fr>`_,
+ `Riccardo BRUNO <mailto:riccardo.bruno@ct.infn.it>`_ - Italian National Institute of Nuclear Physics (INFN_)
 
- `Ouafa BENTALB <mailto:o.bentaleb@grid.arn.dz>`_ - Algerian Research Network (ARN_),
+:Version: v1.0, 2015
 
-:Version: v2.0.1, 2015
-
-:Date: May 29th, 2015 13:54
+:Date: June 16th, 2015 18:00
