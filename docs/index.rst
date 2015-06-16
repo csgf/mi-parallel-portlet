@@ -13,6 +13,8 @@ About
    :target: https://github.com/csgf/mi-parallel-portlet
    :alt: mi-parallel-portlet logo
    :scale: 80%
+   
+-------------
   
 This portlet represents a template that allows you to develop your own portlet to submit and run special jobs.
 
