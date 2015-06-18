@@ -7,7 +7,7 @@ About
 ============
 .. images/ABINIT_logo.png
 
-.. image:: https://github.com/csgf/mi-parallel-portlet/blob/master/docroot/images/AppLogo.png?raw=true
+.. image:: images/ABINIT_logo.png
    :height: 100px
    :align: left
    :target: https://github.com/csgf/mi-parallel-portlet
