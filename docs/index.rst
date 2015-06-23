@@ -1,6 +1,6 @@
-*****************************
-mi-parallel-portlet v1.0 Docs
-*****************************
+*******************
+MI-PARALLEL-PORTLET
+*******************
 
 ============
 About
@@ -132,24 +132,14 @@ When all jobs are successfully completed the whole collection becomes **DONE** a
    :alt: Job Collection demo output
 
 
-============
-References
-============
+.. ============
+.. References
+.. ============
 
 ============
-Support
+Contributors
 ============
-Please feel free to contact us any time if you have any questions or comments.
 
-.. _INFN: http://www.ct.infn.it/
-.. _DFA: http://www.dfa.unict.it/
+ Mario TORRISI
 
-:Authors:
- 
- `Mario TORRISI <mailto:mario.torrisi@ct.infn.it>`_ - University of Catania (DFA_),
-
- `Riccardo BRUNO <mailto:riccardo.bruno@ct.infn.it>`_ - Italian National Institute of Nuclear Physics (INFN_)
-
-:Version: v1.0, 2015
-
-:Date: June 16th, 2015 18:00
+ Riccardo BRUNO
