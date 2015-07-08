@@ -19,32 +19,32 @@ before_install:
  - cd ${HOME}
 
 # Get the Liferay portal with the GlassFish application server (v3.1.2)
-# - wget http://sourceforge.net/projects/lportal/files/Liferay%20Portal/6.1.1%20GA2/liferay-portal-glassfish-6.1.1-ce-ga2-20120731132656558.zip/download -O liferay-portal-glassfish-6.1.1-ce-ga2-20120731132656558.zip
-# - unzip liferay-portal-glassfish-6.1.1-ce-ga2-20120731132656558.zip
+ - wget http://sourceforge.net/projects/lportal/files/Liferay%20Portal/6.1.1%20GA2/liferay-portal-glassfish-6.1.1-ce-ga2-20120731132656558.zip/download -O liferay-portal-glassfish-6.1.1-ce-ga2-20120731132656558.zip
+ - unzip liferay-portal-glassfish-6.1.1-ce-ga2-20120731132656558.zip
 
 # Install additional dependencies
-# - wget http://grid.ct.infn.it/csgf/binaries/GridEngine_v1.5.10.zip
-# - unzip GridEngine_v1.5.10.zip 
-# - mv lib ${INSTALL_ROOT}/glassfish-3.1.2/domains/domain1/
+ - wget http://grid.ct.infn.it/csgf/binaries/GridEngine_v1.5.10.zip
+ - unzip GridEngine_v1.5.10.zip 
+ - cp -r lib ${INSTALL_ROOT}/glassfish-3.1.2/domains/domain1/
 
 # Get the SDK and unpack it
-# - wget http://sourceforge.net/projects/lportal/files/Liferay%20Portal/6.1.1%20GA2/liferay-plugins-sdk-6.1.1-ce-ga2-20121004092655026.zip/download -O liferay-plugins-sdk-6.1.1-ce-ga2-20120731132656558.zip
-# - unzip liferay-plugins-sdk-6.1.1-ce-ga2-20120731132656558.zip
-# - ls -lht ${INSTALL_ROOT}/*
+ - wget http://sourceforge.net/projects/lportal/files/Liferay%20Portal/6.1.1%20GA2/liferay-plugins-sdk-6.1.1-ce-ga2-20121004092655026.zip/download -O liferay-plugins-sdk-6.1.1-ce-ga2-20120731132656558.zip
+ - unzip liferay-plugins-sdk-6.1.1-ce-ga2-20120731132656558.zip
+ - ls -lht ${INSTALL_ROOT}/*
 
 # Get the build.properties
-# - wget http://grid.ct.infn.it/statistics/plugins/build.properties
-# - cp build.properties liferay-plugins-sdk-6.1.1
-# - cp -r ${PORTLET} liferay-plugins-sdk-6.1.1/portlets
+ - wget http://grid.ct.infn.it/statistics/plugins/build.properties
+ - cp build.properties liferay-plugins-sdk-6.1.1
+ - cp -r ${PORTLET} liferay-plugins-sdk-6.1.1/portlets
 
 # Get the ecj.jar
-# - wget http://grid.ct.infn.it/statistics/ecj.jar
-# - sudo cp ecj.jar /usr/share/ant/lib/
+ - wget http://grid.ct.infn.it/statistics/ecj.jar
+ - sudo cp ecj.jar /usr/share/ant/lib/
 
 # Building the mi-parallel-portlet
-#install:
-# - cd liferay-plugins-sdk-6.1.1/portlets/mi-parallel-portlet
-# - sudo ant deploy
+install:
+ - cd liferay-plugins-sdk-6.1.1/portlets/mi-parallel-portlet
+ - sudo ant deploy
 
 notifications:
   email:
