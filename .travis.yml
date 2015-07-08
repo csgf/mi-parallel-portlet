@@ -24,9 +24,8 @@ before_install:
 
 # Install additional dependencies
  - wget http://grid.ct.infn.it/csgf/binaries/GridEngine_v1.5.10.zip
-# - tar zxvf lib.tar.gz -C ${INSTALL_ROOT}/glassfish-3.1.2/domains/domain1/
-- unzip GridEngine_v1.5.10.zip 
-- mv lib ${INSTALL_ROOT}/glassfish-3.1.2/domains/domain1/
+ - unzip GridEngine_v1.5.10.zip 
+ - mv lib ${INSTALL_ROOT}/glassfish-3.1.2/domains/domain1/
 
 # Get the SDK and unpack it
  - wget http://sourceforge.net/projects/lportal/files/Liferay%20Portal/6.1.1%20GA2/liferay-plugins-sdk-6.1.1-ce-ga2-20121004092655026.zip/download -O liferay-plugins-sdk-6.1.1-ce-ga2-20120731132656558.zip
