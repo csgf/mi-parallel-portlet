@@ -568,13 +568,13 @@ EOF
 #
 # Generates the java code
 #
-cat docroot/WEB-INF/src/it/infn/ct/mi_parallel_app_portlet.java | sed s/"mi_parallel_app_portlet"/"${CLASS_NAME}"/g | sed s/"@author <a href=\"mailto:riccardo.bruno@ct.infn.it\">riccardo bruno<\/a>(COMETA)"/"@author <a href=\"mailto:${AUTH_EMAIL}\">${AUTH_NAME}<\/a>(${AUTH_INSTITUTE})"/ | sed s/"hostname-Output.txt"/"${APP_NAME}-Output.txt"/ | sed s/"hostname-Error.txt"/"${APP_NAME}-Error.txt"/ | sed s/"hostname-Files.tar.gz"/"${APP_NAME}-Files.tar.gz"/ > docroot/WEB-INF/src/$(echo $BASE_CLASS | sed s/'\.'/'\/'/g)/${CLASS_NAME}.java
+cat docroot/WEB-INF/src/it/infn/ct/mi_parallel_portlet.java | sed s/"mi_parallel_portlet"/"${CLASS_NAME}"/g | sed s/"@author <a href=\"mailto:riccardo.bruno@ct.infn.it\">riccardo bruno<\/a>(COMETA)"/"@author <a href=\"mailto:${AUTH_EMAIL}\">${AUTH_NAME}<\/a>(${AUTH_INSTITUTE})"/ | sed s/"hostname-Output.txt"/"${APP_NAME}-Output.txt"/ | sed s/"hostname-Error.txt"/"${APP_NAME}-Error.txt"/ | sed s/"hostname-Files.tar.gz"/"${APP_NAME}-Files.tar.gz"/ > docroot/WEB-INF/src/$(echo $BASE_CLASS | sed s/'\.'/'\/'/g)/${CLASS_NAME}.java
 
 #
 # docroot/edit.jsp 
 #
 mv docroot/edit.jsp docroot/edit.jsp_old
-cat docroot/edit.jsp_old | sed s/"mi_parallel_app_portlet"/"${CLASS_NAME}"/g > docroot/edit.jsp 
+cat docroot/edit.jsp_old | sed s/"mi_parallel_portlet"/"${CLASS_NAME}"/g > docroot/edit.jsp 
 rm -f docroot/edit.jsp_old
 
 #

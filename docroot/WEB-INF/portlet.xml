@@ -9,7 +9,7 @@
 	<portlet>
 		<portlet-name>mi-parallel-portlet</portlet-name>
 		<display-name>mi-parallel-portlet</display-name>
-		<portlet-class>it.infn.ct.mi_parallel_app_portlet</portlet-class>
+		<portlet-class>it.infn.ct.mi_parallel_portlet</portlet-class>
 		<!--
                      Application init parameters
                 -->
