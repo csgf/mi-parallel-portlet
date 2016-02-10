@@ -11,4 +11,4 @@ The following instructions show how to deploy this exemplar portlet, how to use 
 
 [![Travis](http://img.shields.io/travis/csgf/mi-parallel-portlet/master.png)](https://travis-ci.org/csgf/mi-parallel-portlet)
 [![Documentation Status](https://readthedocs.org/projects/csgf/badge/?version=latest)](http://csgf.readthedocs.org)
-[![License](https://img.shields.io/github/license/csgf/semantic-search-portlet.svg?style?flat)](http://www.apache.org/licenses/LICENSE-2.0.txt)
+[![License](https://img.shields.io/github/license/csgf/mi-parallel-portlet.svg?style?flat)](http://www.apache.org/licenses/LICENSE-2.0.txt)
